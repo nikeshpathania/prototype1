@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BrandXD - User Selection</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/docs.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="userselection.html"><img src="images/logo.svg"></a></div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <div class="nav navbar-nav navbar-right text-right">
+        <div class="toplinkfirst">
+          <p><strong>Welcome  BrandXD</strong>&nbsp;&nbsp; <a href="userselection.html" class="changeuser"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Change User</a> <a href="index.html" class="logout"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Logout</a></p>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="decidequote.html">Create  Quote </a></li>
+          <li><a href="manage-quote.html">Quote Management </a></li>
+          <li><a href="manage-company.html">Company Management </a></li>
+          <li><a href="reports.html">Reports</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container-fluid --> 
+</nav>
+<div class="container innerPageBg">
+  <h2 class="pageheading">Decide Quote</h2>
+  <div class="subheading">Select the prefered way to create a quote</div>
+  <div class="row margin-bottom5 decideQuote">
+  <div class="col-sm-6">
+  <form action="known-model.html">
+    <ul>
+      <li>
+        <input type="radio" id="s-option" name="selector">
+        <label for="s-option">Create a quote with known models and quantities</label>
+        <small>- Manually type the model / quantities or upload the file. </small>
+        <div class="check">
+          <div class="inside"></div>
+        </div>
+      </li>
+      <li>
+        <input type="radio" id="f-option" name="selector">
+        <label for="f-option">Create a quote with unknown model</label>
+        <small>- Unknown models but known quantities. </small>
+        <div class="check"></div>
+      </li>
+      <li>
+      		<button class=" btn btn-danger">Continue</button>
+      </li>
+    </ul>
+    </form>
+    </div>
+  </div>
+</div>
+<div class="footer navbar-fixed-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <p class="copyright">Copyright &copy; 2014 BrandXD Corp&middot; | BrandXD is a registered of BrandXD Corp. All rights reserved.</p>
+      </div>
+      <div class="col-md-6 footer_logo"> <img src="images/brightstar.svg"  alt=""/> </div>
+    </div>
+  </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery.min.js"></script> 
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/custom.js"></script>
+</body>
+</html>
